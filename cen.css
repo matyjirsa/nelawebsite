@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body {
+    background-color: #f5f5f5;
+}
+
+a{
+    text-decoration: none
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+}
+
+
+.log{
+    font-size: 20px;
+}
+
+.hamburger{
+    display: none;   
+}
+
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    color: red;
+}
+
+
+
+.logo{
+    width: 60px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.hero {
+    background-image: url('assets/pozadi.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 255px 20px;
+    color: white;
+}
+
+.logow{
+    width: 400px;
+    margin-top: -50px;
+}
+
+
+.korektura{
+    margin-top: 150px;
+    margin-left: 110px;
+    margin-bottom: -50px;
+    margin-right: 50px;
+}
+
+.postup{
+    list-style-type: none;
+}
+
+.copywriting{
+    margin-left: 110px;
+    margin-top: 120px;
+    max-width: 1450px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.nad{
+    font-size: 30px;
+}
+
+
+
+
+
+.jedna{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dva{
+    margin-bottom: 10px;
+}
+
+.tri{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.ctyri{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.pet{
+    margin-bottom: 10px;
+}
+
+.sest{
+    margin-bottom: 10px;
+}
+
+.sedm{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.osm{
+    margin-top: 10px;
+}
+
+.devet{
+    margin-bottom: 5px;
+}
+
+.deset{
+    margin-top: 10px;
+}
+
+.jedenact{
+    margin-top: 10px;
+}
+.dvanact{
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section p {
+    margin-top: 20px;
+}
+
+.footer-logo {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin-left: -80px;
+}
+
+.footer-section h4 {
+    color: #4285f4;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons{
+    margin-top: 40px;
+}
+
+.social-icons a {
+    margin: 10px;
+}
+
+.footer-bottom {
+    border-top: 2px solid #808080;
+    border-radius: 2px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.acko{
+    text-decoration: none;
+    color: white;
+}
+
+.kontakt{
+    text-align: justify;
+    margin-left: -400px;
+    margin-top: 30px;
+}
+
+.kontakt p {
+    margin-top: 13px;
+}
+
+
+.zde{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hamburger{
+    width: 0;
+}
+
+
+@media only screen and (max-width: 1320px) {
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header{
+        padding: 0 30px;
+    }
+
+    .kontakt{
+        text-align: justify;
+        margin-left: -160px;
+        margin-top: 30px;
+    }
+    
+    .kontakt p {
+        margin-top: 13px;
+    }
+
+    .footer-logo{
+        margin-left: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    header{
+        width: 100%;
+        height: 80px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 70px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+    }
+    
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 6px;
+        margin-right: 30px;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #f5f5f5;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active{
+        height: 300px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+    .kontakt{
+        text-align: justify;
+        margin-left: -160px;
+        margin-top: 30px;
+    }
+    
+    .kontakt p {
+        margin-top: 13px;
+    }
+
+    .footer-logo{
+        margin-left: 20px;
+    }
+
+    .korektura{
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-bottom: -50px;
+    }
+    
+    .postup{
+        list-style-type: none;
+    }
+    
+    .copywriting{
+        margin-left: 50px;
+        margin-top: 120px;
+        max-width: 1450px;
+        margin-bottom: 50px;
+    }
+    
+    .nad{
+        font-size: 30px;
+    }
+
+    .logo{
+        width: 60px;
+        margin-left: -40px;
+    }
+    
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-name {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .kontakt{
+        text-align: justify;
+        margin-left: -160px;
+        margin-top: 30px;
+    }
+    
+    .kontakt p {
+        margin-top: 13px;
+    }
+
+    .footer-logo{
+        margin-left: -40px;
+        margin-top: -8px;
+        width: 350px;
+    }
+}

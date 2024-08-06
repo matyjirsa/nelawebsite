@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mně</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!-- Navbar -->
+ <div class="dek">
+    <header>
+        <a href="/frontend/mainpage/nav.html" class="navbar-logo">
+            <img src="assets/nellogo.png" alt="logo" class="logo">
+            <span class="logo-name">Nela Jirsová</span>
+        </a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/frontend/mainpage/nav.html#služby" class="active">služby</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/nav.html#reference" class="active">reference</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/about.html" class="active">o mně</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/cen.html" class="active">ceník</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/contact.html" class="active">kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+<!-- Hero Section 
+<section id="home" class="hero">
+    <div class="hero-content">
+       <img src="assets/nellogow.png" alt="logowhite" class="logow">
+        <div class="hero-text">
+            <h1>Čtivé a gramaticky správné texty</h1>
+            <p>Nela Jirsová</p>
+        </div>
+    </div>
+</section>
+-->
+
+<!-- Moje Práce Section -->
+<section id="služby" class="moje-prace">
+    <div class="prace-item">
+        <img src="assets/ahaha.jpg" alt="Copywriting" class="img1">
+        <div class="prace-description">
+            <h3 class="nadpis">O mně</h3>
+            <p class="text1">Jmenuji se Nela Jirsová a jsem Korektorka, Copywriter & SEO & Content Specialista. Vystudovala jsem Univerzitu Karlovu, obor Čeština v komunikaci neslyšících, a mám diplom se zaměřením na lingvistiku českého jazyka a českého znakového jazyka. Psaní a hledání chyb v textu je mou vášní už od doby, kdy jsem se tyto dovednosti poprvé naučila (děkuju mami). Není tedy divu, že mě to doteď nepustilo. Věnuji se korekturám textů, copywritingu a tvorbě obsahu, který je nejen gramaticky, typograficky a stylisticky správný, ale také čtivý a především lidský. Zároveň jsem absolvovala spoustu kurzů na tato témata. Jedním z hlavních byl Profesionální korektorský kurz od Červené propisky, který jsem úspěšně zakončila.</p>
+            <p class="text2">Mým cílem je vytvořit pro vás texty, které podporují návštěvnost webu, úspěšnost a prodeje. A to vše díky důkladně promyšlenému zacílení klíčových slov (SEO). Každý můj text (a doufám, že za chvíli také váš) je jedinečný stejně jako jeho autor. Aby mohl být v té nejlepší kvalitě, vždy je potřeba špetka péče. <strong>Věnujte se svému oboru a péči o text nechte na mně.</strong></p>
+            <p class="text3"><strong>Měním slova na fungující a čtivé texty.</strong></p>
+        </div>
+    </div>
+    <!-- Moje Práce Section 
+    <div class="prace-item">
+        <div class="prace-description">
+            <h3 class="nadpis2">Korektury</h3>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tortor et lorem vehicula gravida non a orci. Donec convallis consectetur luctus. Pellentesque sed...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tortor et lorem vehicula gravida non a orci. Donec convallis consectetur luctus. Pellentesque sed...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tortor et lorem vehicula gravida non a orci. Donec convallis consectetur luctus. Pellentesque sed...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tortor et lorem vehicula gravida non a orci. Donec convallis consectetur luctus. Pellentesque sed...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tortor et lorem vehicula gravida non a orci. Donec convallis consectetur luctus. Pellentesque sed...Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <img src="assets/mistake-968334_1280.jpg" alt="Korektury" class="img2">
+    </div>
+    -->
+</section>
+
+
+<!-- Reference Section 
+<section id="reference" class="reference">
+    <h2>Reference</h2>
+    <div class="reference-container">
+        <div class="reference-item">
+            <img class="user" src="assets/user.png" alt="user">
+            <p class="reference-name">mark</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula justo sit amet mauris cursus mattis.</p>
+        </div>
+        <div class="reference-item">
+            <img class="user" src="assets/user.png" alt="user">
+            <p class="reference-name">magdaléna</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula justo sit amet mauris cursus mattis.</p>
+        </div>
+        <div class="reference-item">
+            <img class="user" src="assets/user.png" alt="user">
+            <p class="reference-name">petr</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula justo sit amet mauris cursus mattis.</p>
+        </div>
+    </div>
+</section>
+-->
+
+
+<footer>
+    <div id="kontakt" class="footer-container">
+        <div class="footer-section">
+            <img src="assets/foottt.png" alt="logo" class="footer-logo">
+        </div>
+        <div class="kontakt">
+            <h4 class="h4">Kontakt</h4>
+            <ul>
+                <li><p>Bc. Nela Jirsová</p></li>
+                <li><p><a class="acko" href="mailto:nelajirsova@gmail.com">jirsova.nela01@gmail.com</a></p></li>
+                <li><p>+420 739 408 743</p></li>
+                <li><p>IČO: 21514291</p></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <p>Obchodní podmínky <a class="zde" href="/frontend/mainpage/podm.html">zde</a></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/nela.jirsova.7"><img src="assets/facebook_icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/nela_jirsova/"><img src="assets/igig.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/nela-jirsova"><img src="assets/linkedin_icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright 2024 &copy; nelajirsova.com - Všechna Práva Vyhrazena.</p>
+    </div>
+</footer>
+
+</body>
+</html>

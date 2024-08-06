@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dek">
+    <header>
+        <a href="#home" class="navbar-logo">
+            <img src="assets/nellogo.png" alt="logo" class="logo">
+            <span class="logo-name">Nela Jirsová</span>
+        </a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#služby" class="active">služby</a>
+                </li>
+                <li>
+                    <a href="#reference" class="active">reference</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/about.html" class="active">o mně</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/cen.html" class="active">ceník</a>
+                </li>
+                <li>
+                    <a href="/frontend/mainpage/contact.html" class="active">kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+        <img src="assets/nellogow.png" alt="logowhite" class="logow">
+            <div class="hero-text">
+                <h1>Čtivé a bezchybné texty na míru</h1>
+                <p>Nela Jirsová</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="služby" class="moje-prace">
+        <h2>Napíšu a opravím to za vás</h2>
+        <div class="prace-item">
+            <img src="assets/photo.jpg" alt="Copywriting" class="img1">
+            <div class="prace-description">
+                <h3 class="nadpis">Copywriting</h3>
+                <p class="text1">Potřebujete texty, které zaujmou, informují a prodávají? Jako zkušený copywriter se specializuji na tvorbu obsahu, který upoutá pozornost čtenářů a umí efektivně komunikovat vaši značku a její hodnoty. Vytvářím texty pro webové stránky, blogy, marketingové kampaně, newslettery, sociální sítě, reklamní materiály, zkrátka vše, u čeho si písmenka dokážete představit. Ke každému obsahu přistupuji individuálně. Výsledek je ale vždy stejný. Text je s mou maličkostí (a to doslova, měřím totiž 155 cm) čtivý, srozumitelný a gramaticky správný. Tón a styl textu vždy přizpůsobím vašim potřebám, ať už se jedná o odborné a technické články, nebo přátelské příspěvky. A díky SEO optimalizaci a klíčovým slovům zajistím, že vaše texty budou také viditelné a přitáhnou více návštěvníků. Vystupte z davu a ukažte se v tom nejlepším světle. Mé texty vám s tím pomohou.</p>
+            </div>
+        </div>
+        <div class="prace-item">
+            <div class="prace-description">
+                <h3 class="nadpis2">Korektury</h3>
+                <p class="text">Chcete mít jistotu, že budou vaše texty bez jediné chybičky? Nikdo nechce prezentovat texty s chybami. Nabízím profesionální korekturu textů, která zahrnuje pečlivou kontrolu gramatiky, stylistiky a typografie. Každý text prochází detailní revizí, během které odhalím a opravím všechny chyby, aby byl výsledek perfektní. Korektury provádím pro širokou škálu dokumentů, od akademických prací a obchodních materiálů až po webové stránky a marketingové texty. S ohledem na vaše požadavky a cíle upravuji texty tak, aby byly srozumitelné a efektivní. Díky mým odborným znalostem z lingvistiky českého jazyka a několikaleté praxi jsem schopna zajistit, že vaše texty budou nejen správné po pravopisné stránce, ale i stylisticky konzistentní a profesionální. Věřím, že precizní a kvalitně zpracovaný text je základem úspěšné komunikace a může výrazně přispět k pozitivnímu vnímání vaší značky. Svěřte texty do mých rukou a sklízejte chválu na bezchybnou komunikaci. </p>
+            </div>
+            <img src="assets/dedede.jpg" alt="Korektury" class="img2">
+        </div>
+    </section>
+
+    <section id="reference" class="reference">
+        <h2>Reference</h2>
+        <div class="reference-container">
+            <div class="reference-item">
+                <img class="user" src="assets/user.png" alt="user">
+                <p class="reference-name">Monika</p>
+                <p class="date">31.5. 2024</p>
+                <p>Nela mi pomohla s korekturou mé diplomové práce. Díky jejím úpravám jsem si mohla být jistá, že v práci nebudou žádné gramatické ani stylistické chyby, které jsem při psaní přehlédla. Přesně takto si představuji korektorskou práci.</p>
+            </div>
+            <div class="reference-item">
+                <img class="user" src="assets/user.png" alt="user">
+                <p class="reference-name">Markéta</p>
+                <p class="date">20.4. 2023</p>
+                <p>Jako student jsem hledala někoho, kdo by mi opravil mou bakalářskou práci. Dostala jsem doporučení na Nelu, která mi provedla kompletní korekturu. Musím říct, že vychytala všechny překlepy a chyby, kterých jsem si sama nevšimla, a to jsem si myslela, že gramatiku ovládám na vysoké úrovni. Určitě je dobré si práci nechat zkontrolovat i od někoho jiného. Jsem ráda, že jsem si k tomu zvolila právě Nelu.</p>
+            </div>
+            <div class="reference-item">
+                <img class="user" src="assets/user.png" alt="user">
+                <p class="reference-name">Zdeněk</p>
+                <p class="date">22.3. 2022</p>
+                <p>Nelu jsem oslovil kvůli textacím na svůj e-shop. Potřeboval jsem, aby byly texty srozumitelné, jednoduché a bez chyby. Svůj web jsem potřeboval kompletně vyšperkovat a Nela splnila všechna má očekávání. Nyní je web přehledný a jako bonus v něm jsou texty, které přesně vystihují to, co prodávám. </p>
+            </div>
+            <div class="reference-item">
+                <img class="user" src="assets/user.png" alt="user">
+                <p class="reference-name">Luboš</p>
+                <p class="date">14.9. 2022</p>
+                <p>Sháněl jsem někoho, kdo by mi spravoval blog na dané téma na mých webových stránkách. Nelu jsem požádal o spolupráci a mohu jen doporučit. Vždy přišla s novými nápady a každý text byl opravdu jedinečný. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="kontakt" class="footer-container">
+            <div class="footer-section">
+                <img src="assets/foottt.png" alt="Pizza Dash Logo" class="footer-logo">
+            </div>
+            <div class="kontakt">
+                <h4 class="h4">Kontakt</h4>
+                <ul>
+                    <li><p>Bc. Nela Jirsová</p></li>
+                    <li><p><a class="acko" href="mailto:nelajirsova@gmail.com">jirsova.nela01@gmail.com</a></p></li>
+                    <li><p>+420 739 408 743</p></li>
+                    <li><p>IČO: 21514291</p></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <p>Obchodní podmínky <a class="zde" href="/frontend/mainpage/podm.html">zde</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nela.jirsova.7"><img src="assets/facebook_icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/nela_jirsova/"><img src="assets/igig.png" alt="Twitter"></a>
+                    <a href="https://www.linkedin.com/in/nela-jirsova"><img src="assets/linkedin_icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2024 &copy; nelajirsova.cz - Všechna Práva Vyhrazena.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hlavní strana</title>
+        <link rel="stylesheet" href="podm.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dek">
+        <header>
+            <a href="/frontend/mainpage/nav.html" class="navbar-logo">
+                <img src="assets/nellogo.png" alt="logo" class="logo">
+                <span class="logo-name">Nela Jirsová</span>
+            </a>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="/frontend/mainpage/nav.html#služby" class="active">služby</a>
+                    </li>
+                    <li>
+                        <a href="/frontend/mainpage/nav.html#reference" class="active">reference</a>
+                    </li>
+                    <li>
+                        <a href="/frontend/mainpage/about.html" class="active">o mně</a>
+                    </li>
+                    <li>
+                        <a href="/frontend/mainpage/cen.html" class="active">ceník</a>
+                    </li>
+                    <li>
+                        <a href="/frontend/mainpage/contact.html" class="active">kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        </div>
+    
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+
+
+    <section id="obchod" class="obchod">
+        <h2 class="nadd">Obchodní podmínky:</h2>
+        <h3 class="nad3">VŠEOBECNÉ PODMÍNKY</h3>
+        <p class="text">Všeobecné obchodní podmínky platí pro poskytování služeb na těchto webových stránkách nelajirsova.cz. Nela Jirsová si vyhrazuje právo na odmítnutí některých zakázek z důvodu pracovní vytíženosti. Pokud by však k tomuto odmítnutí došlo, klient s tím bude obeznámen ihned při první zprávě. </p>
+
+        <h3 class="nad3">NÁKUP SLUŽEB</h3>
+        <p class="text">Nákup služeb copywritingu či korektury probíhá na základě e-mailové dohody, která je uzavřena mezi prodávajícím a kupujícím. Kupující se zavazuje provést platbu do 5 pracovních dnů. Prodávající se zavazuje dodržet přesný termín dodání a veškeré podmínky objednané služby, na kterých se s kupujícím domluvil. Doba splatnosti se může lišit. Vždy záleží na vzájemné domluvě kupujícího a prodávajícího. </p>
+    
+        <h3 class="nad3">CENA SLUŽEB</h3>
+        <p class="text">Ve složce ceník na webovém rozhraní je uvedena aktuálně platná cena jednotlivých služeb. Nevznikají žádné náklady na dopravu ani žádné další náklady spojené s jeho dodáním. Cena, kterou si kupující s prodávajícím domluví, je konečná. Některé služby vzhledem k jejich charakteru pevnou cenu nemají a jsou vypočítány na základě rozsahu práce a požadavcích klientů. V případě korektury je cena uvedena na počet normostran (1 normostrana = 1 800 znaků včetně mezer).</p>
+    
+        <h3 class="nad3">ZPŮSOB PLATBY</h3>
+        <p class="text">Platba může být uskutečněna pouze jediným způsobem, a to bezhotovostně bankovním převodem na uvedený účet. Platba může trvat zpravidla 1-3 pracovní dny. Pokyny k platbě obdržíte v e-mailu. Zaplatit je nutné před provedením služby. Výjimkou mohou být faktury vystavené na IČO či dlouhodobé spolupráce, u kterých se platnost prodlužuje na 14 dní.</p>
+
+        <h3 class="nad3">ZPŮSOB DODÁNÍ</h3>
+        <p class="text">Termín dodání je uveden u každé služby zvlášť. Liší se podle rozsahu stran. Pokud je termín dodání diametrálně odlišný od počtu dnů vypsaných na webových stránkách, klient s touto skutečností bude obeznámen ještě před potvrzením objednávky. Termín je počítán od data připsání platby na účet prodávajícího. Služba v podobě textu vám bude odeslána na vámi uvedenou e-mailovou adresu ve formátu PDF nebo doc.</p>
+
+        <h3 class="nad3">REKLAMACE</h3>
+        <p class="text">Pokud by se stalo, že kupující není se službami copywritingu či korekturami spokojen, má do 30 dnů po poskytnutí služby právo vyplnit reklamační formulář. Ten mu bude zaslán přes e-mail na jeho vyžádání. Reklamace si prodávající a kupující řeší individuálně. V případě textů do 100 normostran je obecná tolerance 10 chyb, které mohou korektorovi v rozsáhlosti textu uniknout.</p>
+
+        <h3 class="nad3">GDPR</h3>
+        <p class="text2">Nela Jirsová se zavazuje, že vaše osobní údaje, jako je e-mailová adresa, telefonní číslo a zaslaný text neposkytne třetí straně.</p>
+    </section>
+
+    <footer>
+        <div id="kontakt" class="footer-container">
+            <div class="footer-section">
+                <img src="assets/foottt.png" alt="Pizza Dash Logo" class="footer-logo">
+            </div>
+            <div class="kontakt">
+                <h4 class="h4">Kontakt</h4>
+                <ul>
+                    <li><p>Bc. Nela Jirsová</p></li>
+                    <li><p><a class="acko" href="mailto:nelajirsova@gmail.com">jirsova.nela01@gmail.com</a></p></li>
+                    <li><p>+420 739 408 743</p></li>
+                    <li><p>IČO: 21514291</p></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <p>Obchodní podmínky <a class="zde" href="#">zde</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nela.jirsova.7"><img src="assets/facebook_icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/nela_jirsova/"><img src="assets/igig.png" alt="Twitter"></a>
+                    <a href="https://www.linkedin.com/in/nela-jirsova"><img src="assets/linkedin_icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2024 &copy; nelajirsova.com - Všechna Práva Vyhrazena.</p>
+        </div>
+    </footer>
+</body>
+</html>
